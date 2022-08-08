@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- header section -->
+    <header>
+        <div class="header-1">
+            <a href="#" class="logo"><i class="fa-solid fa-basket-shopping"></i>Growsary</a>
+            <form action="" class="search-box-container">
+                <input type="search" id="search-box" onclick="handlesearch()" placeholder="search here....">
+                <label for="search-box"><i class="fa-solid fa-magnifying-glass"></i></label>
+            </form>
+
+        </div>
+        <div class="header-2">
+            <div id="menu-bar"><i class="fa-solid fa-bars fa-2x"></i></div>
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#category">Category</a>
+                <a href="#contact">Contact</a>
+                <a href="#products">Product</a>
+                <a href="#">Deal</a>
+            </nav>
+            <div class="icons">
+                <a href="#" class="fa-solid fa-cart-shopping"></a>
+                <a href="#" class="fa-solid fa-heart"></a>
+                <a href="#" class="fa-solid fa-circle-user"></a>
+            </div>
+        </div>
+    </header>
+    <section id="home">
+        <div class="image">
+            <img height="450rem" src="https://cdn.pixabay.com/photo/2017/07/27/17/30/tray-2546077_960_720.jpg">
+        </div>
+        <div class="content">
+            <span>Fresh and Organic</span>
+            <h3>Your Daily Need Products</h3>
+            <h3><a href="#" class="btn">Get Started</a></h3>
+        </div>
+    </section>
+
+
+    <!-- Category section -->
+    <section id="category">
+        <h1 class="heading">Shop By&nbsp;<span>Category</span></h1>
+        <div class="box-container1">
+            <!-- categories -->
+        </div>
+    </section>
+
+
+    <!-- Product Section -->
+    <section class="products">
+        <h1 class="heading">Latest&nbsp;<span>Products</span></h1>
+        <div class="box-container2"></div>
+    </section>
+
+
+    <!-- contact section -->
+    <section id="contact">
+        <h1 class="heading"><span>Contact</span>&nbsp;Us</h1>
+        <form action="">
+            <div class="inputBox">
+                <input type="text" id="name" placeholder="enter name">
+                <input type="email" id="email" placeholder="enter mail">
+            </div>
+            <div class="inputBox">
+                <input type="number" id="number" placeholder="enter number">
+                <input type="text" id="item" placeholder="enter item name">
+            </div>
+            <textarea placeholder="message" id="message" cols="40" rows="10"></textarea>
+            <button class="btn" id="buttonSbmit">Submit</button>
+        </form>
+        <!-- <div class="message">
+            <div class="close-model"><i class="fas fa-window-close"></i></div>
+            <div class="msgBox">
+              
+            </div>
+         </div> -->
+    </section>
+    <!-- <div class="message">
+       <span class="msgBox"></span>
+    </div> -->
+    <section id="deal">
+        <div class="content">
+            <h3>Deal of the day</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ut cum doloremque fugiat aliquid, voluptate
+                vitae iusto architecto consectetur fuga incidunt obcaecati perspiciatis, repellat unde porro reiciendis
+                libero nihil eos?</p>
+        </div>
+        <div class="timer">
+            <div id="stopwatch">24&nbsp;:&nbsp;00&nbsp;:&nbsp;00&nbsp;</div>
+
+            <div id="Button">
+                <button onclick="startTimer()">Start</button>
+                <button onclick="stopTimer()">Stop</button>
+                <button onclick="resetTimer()">Reset</button>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <div class="footer">
+        <div class="box-container">
+            <div class="box">
+                <a href="#" class="logo"><i class="fa-solid fa-basket-shopping"></i>Growsary</a>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet ducimus suscipit esse est commodi
+                    repellat. Officiis.</p>
+                <div class="share">
+                    <a href="#" class="btn fab fa-facebook-f"></a>
+                    <a href="#" class="btn fab fa-twitter"></a>
+                    <a href="#" class="btn fab fa-instagram"></a>
+                    <a href="#" class="btn fab fa-linkedin"></a>
+                </div>
+            </div>
+            <div class="box">
+                <h3>Our Location</h3>
+                <div class="links">
+                    <a href="#">india</a>
+                    <a href="#">USA</a>
+                    <a href="#">france</a>
+                    <a href="#">japan</a>
+                    <a href="#">russia</a>
+                </div>
+            </div>
+            <div class="box">
+                <h3>Quick Links</h3>
+                <div class="links">
+                    <a href="#">home</a>
+                    <a href="#">category</a>
+                    <a href="#">product</a>
+                    <a href="#">deal</a>
+                    <a href="#">contact</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>Download App</h3>
+                <div class="links">
+                    <a href="#">google play</a>
+                    <a href="#">window xp</a>
+                    <a href="#">app store</a>
+                </div>
+            </div>
+        </div>
+        <h3 class="credit"><span>Growsery Products</span> &copy; 2019,All Rights Reserved!</h1>
+            </section>
+</body>
+<script src="./script.js"></script>
+
+</html>

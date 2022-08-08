@@ -1,0 +1,44 @@
+{
+    "items": [
+        {
+            "id": "1",
+            "fields": {
+                "title": "Vegitable",
+                "offer": "30% off",
+                "images": {
+                    "url": "./images/category-1.png"
+                }
+            }
+        },
+        {
+            "id": "2",
+            "fields": {
+                "title": "Meat",
+                "offer": "20% off",
+                "images": {
+                    "url": "./images/category-3.png"
+                }
+            }
+        },
+        {
+            "id": "3",
+            "fields": {
+                "title": "Milk",
+                "offer": "10% off",
+                "images": {
+                    "url": "./images/category-2.png"
+                }
+            }
+        },
+        {
+            "id": "4",
+            "fields": {
+                "title": "Fruites",
+                "offer": "30% off",
+                "images": {
+                    "url": "./images/category-4.png"
+                }
+            }
+        }
+    ]
+}
